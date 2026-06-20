@@ -43,13 +43,33 @@
 <!-- Converter -->
 <h2>Check the rate</h2>
 <div class="card">
-
-
-Send
+  <div class="send-card">
+    
+    <div class="send-amount">
+      <h3>Send</h3>
+      <div class="amount">
 <!-- Dynamic: amount to convert (number input, defaults to 1,000) -->
+1000
+      </div>
+      <div class="currency-selector">
+        <select>
+          <option value="usd">
+            <img src="./assets/images/flags/us.webp" alt="us"/>
+            <span>USD</span>
+          </option>
+        </select>
+      </div>
+    </div>
+
 <!-- Dynamic: selected "send" currency — flag + code; opens the currency picker -->
 
 <!-- Swap the send and receive currencies (icon button) -->
+  </div>
+  <div class="converter"></div>
+  <div class="receive-card"></div>
+
+
+
 
 Receive
 <!-- Dynamic: converted amount -->

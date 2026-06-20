@@ -62,5 +62,23 @@ body {
   height: 200px;
   border-radius: 16px;
 }
+.main-body .container .conversion-card .card .send-card {
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+}
+.main-body .container .conversion-card .card .send-card .send-amount {
+  display: flex;
+  flex-direction: column;
+}
+.main-body .container .conversion-card .card .send-card .currency-selector select option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.main-body .container .conversion-card .card .send-card .currency-selector select option img {
+  width: 24px;
+  height: 24px;
+}
 
 /*# sourceMappingURL=main.css.map */
