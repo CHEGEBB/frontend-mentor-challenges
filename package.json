@@ -1,0 +1,25 @@
+{
+  "name": "frontend-mentor-challenges",
+  "version": "1.0.0",
+  "description": "![Design preview for the FX Checker coding challenge](./preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "sass --watch scss/main.scss:css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CHEGEBB/frontend-mentor-challenges.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/CHEGEBB/frontend-mentor-challenges/issues"
+  },
+  "homepage": "https://github.com/CHEGEBB/frontend-mentor-challenges#readme",
+  "devDependencies": {
+    "sass": "^1.101.0"
+  }
+}
