@@ -1,6 +1,6 @@
 # Frontend Mentor - FX Checker
 
-![Design preview for the FX Checker coding challenge](./preview.jpg)
+![Design preview for the FX Checker coding challenge](/foreign%20exchange%20currency%20converter/preview.jpg)
 
 ## Welcome! 👋
 
