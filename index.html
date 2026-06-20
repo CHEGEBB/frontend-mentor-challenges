@@ -3,29 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Frontend Mentor | FX Checker</title>
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-
-  <title>Frontend Mentor | FX Checker</title>
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
-<!--
-  This file holds the static written content from the design so you don't have to
-  retype it. It is intentionally unstructured — building the HTML is your job.
 
-  Notes labelled "Dynamic:" mark content pulled in with JavaScript — live exchange
-  rates, or the pairs and conversions you save in the browser. Text in [square
-  brackets] is a live value that sits inside otherwise-static copy.
-
-  Labels are written in normal case even though the design shows many of them in
-  uppercase. Apply that uppercase look with CSS (text-transform: uppercase) rather
-  than capital letters in the markup — all-caps text can be read out awkwardly by
-  some screen readers. Acronyms and codes (FX, EOD, ECB, USD, EUR…) stay as-is.
--->
-
-
+<div class="main-body">
 <!-- Header -->
+ <div class="header">
+  <div class="top">
+    <div class="logo"></div>
+    <div class="facts"></div>
+  </div>
+ </div>
 
 <!-- Brand logo — assets/images/logo.svg (the lockup already includes the "FX_CHECKER" wordmark; use alt="FX Checker") -->
 
@@ -33,7 +26,7 @@
 Currencies · EOD · ECB data
 
 
-<!-- Live markets ticker — auto-scrolls across the page, pauses on hover -->
+  <!-- Live markets ticker — auto-scrolls across the page, pauses on hover -->
 
 Live markets
 
@@ -152,6 +145,7 @@ Clear all
 <!-- Log empty state -->
 No conversions logged yet
 Every conversion is recorded here automatically when you tap Log conversion. Your log is private to this session and this browser.
+</div>
 
 </body>
 </html>
