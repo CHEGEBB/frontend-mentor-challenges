@@ -54,5 +54,21 @@ body {
         }
     }
 }
+.container{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 75%;
+    height: 85%;
+    .conversion-card{
+        h2{
+            color: #C6C6C6;
+        }
+        .card{
+            background-color: #171719;
+            height: 200px;
+            border-radius: 16px;
+        }
+    }
+}
     
 }
