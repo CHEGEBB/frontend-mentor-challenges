@@ -15,23 +15,30 @@
 <!-- Header -->
  <div class="header">
   <div class="top">
-    <div class="logo"></div>
-    <div class="facts"></div>
+    <div class="logo">
+      <!-- Brand logo — assets/images/logo.svg (the lockup already includes the "FX_CHECKER" wordmark; use alt="FX Checker") -->
+       <img src="./assets/images/logo.svg" alt="logo"/>
+
+    </div>
+    <div class="facts">
+      <!-- Dynamic: number of available currencies, e.g. "55" -->
+       <span class="info">       55 Currencies · EOD · ECB data
+</span>
+    </div>
   </div>
- </div>
+  <div class="marquee">
+      <!-- Live markets ticker — auto-scrolls across the page, pauses on hover -->
+       <div class="live-badge">
+&bull;Live markets
+       </div>
 
-<!-- Brand logo — assets/images/logo.svg (the lockup already includes the "FX_CHECKER" wordmark; use alt="FX Checker") -->
 
-<!-- Dynamic: number of available currencies, e.g. "55" -->
-Currencies · EOD · ECB data
-
-
-  <!-- Live markets ticker — auto-scrolls across the page, pauses on hover -->
-
-Live markets
 
 <!-- Dynamic: scrolling list of currency pairs, each with its rate and 24h change (▲ up / ▼ down) -->
-
+  </div>
+ </div>
+ <div class="container">
+  <div class="conversion-card">
 
 <!-- Converter -->
 
@@ -55,7 +62,7 @@ Favorited
 
 Log conversion
 
-
+</div>
 <!-- Currency picker — popover opened from either currency button -->
 
 Search currencies...
@@ -146,6 +153,7 @@ Clear all
 No conversions logged yet
 Every conversion is recorded here automatically when you tap Log conversion. Your log is private to this session and this browser.
 </div>
+ </div>
 
 </body>
 </html>
